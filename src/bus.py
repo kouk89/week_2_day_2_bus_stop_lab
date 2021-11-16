@@ -13,5 +13,8 @@ class Bus:
 
     def pick_up (self, new_passenger):
         self.passengers.append(new_passenger)
+
+    def drop_off (self, passenger):
+        self.passengers.remove(passenger)
         
         
